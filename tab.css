@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: plum;
+    color: white;
+}
+button{
+    align-items: center;
+    border-radius: 20px;
+    width: 50px;
+    color: white;
+    background-color: palevioletred;
+}
+button:hover{
+    background: papayawhip;}
+
+button a{
+    text-decoration: none;
+} 
+
+
+

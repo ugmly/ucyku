@@ -1,0 +1,36 @@
+
+body{
+    background: blanchedalmond;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(125px,1fr));
+    margin: 0px; 
+    align-items: center; 
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover;
+}
+.grid > img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.grid > img:hover{
+    transform: scale(1.4);
+}
+
+@media (max-width:800px){
+    .grid{
+    grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+
+
